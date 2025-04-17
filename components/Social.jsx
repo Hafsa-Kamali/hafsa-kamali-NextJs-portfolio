@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import{ FaGithub, FaLinkedinIn, FaYoutube, FaTwitter, FaFacebook, FaInstagram, FaTelegram } from "react-icons/fa";
+import{ FaGithub, FaLinkedinIn, FaYoutube, FaTwitter, FaFacebook, FaInstagram, FaTelegram, FaTree } from "react-icons/fa";
 
 const socials = [
     {
@@ -9,7 +9,7 @@ const socials = [
     },
     {
         icon: <FaLinkedinIn />,
-        path: "https://www.linkedin.com/in/hafsakamali/",
+        path: "https://www.linkedin.com/in/hafsa-kamali-6b1538326/",
     },
     {
         icon: <FaYoutube />,
@@ -28,8 +28,8 @@ const socials = [
         path: "https://www.instagram.com/call_me_hafiii/",
     },
     {
-        icon: <FaTelegram />,
-        path: "https://www.telegram.com/hafsakamali2003",
+        icon: <FaTree />,
+        path: "https://linktr.ee/Hafsakamali?utm_source=linktree_profile_share&ltsid=2ff073dd-4e71-4d94-800a-0458fdfb59f1",
     },
 ]
 const Social = ({containerStyles, iconStyles}) => {

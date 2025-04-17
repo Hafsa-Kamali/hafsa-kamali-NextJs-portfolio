@@ -5,6 +5,7 @@ import { FiDownload } from "react-icons/fi";
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
+import Link from "next/link";
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
   
   {/*text*/}
   <div className="text-center xl:text-left order-2 xl:order-none">
-    <span className="text-xl">Front-End Developer</span>
+    <span className="text-xl">Full-Stack Developer</span>
     <h1 className="h1 mb-6">
       Hello I,m <br /><span className="text-accent">Hafsa Kamali</span>
     </h1>
@@ -24,13 +25,13 @@ const Home = () => {
     </p>
 {/*buttons and socials*/}
 <div className="flex flex-col xl:flex-row items-center gap-8">
-  <Button variant="outline" size="lg" className="uppercase flex items-center gap-2"> 
-    <span>Download CV</span>
+  <Button variant="outline" size="lg" className="uppercase flex items-center gap-2 shadow-accent shadow-md hover:shadow-[#fff]/50"> 
+   <Link href="https://drive.google.com/file/d/1wuup5qgBLHzfajb4gTM7PQ6j20NVyhWk/view?usp=sharing">Download CV</Link>
     <FiDownload className="text-xl"/>
   </Button>
   <div className="mb-8 xl:mb-0">
     <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent rounded-full 
-    flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary 
+    flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary shadow-md shadow-[#0ef]
     hover:transition-all duration-500" />
   </div>
 </div>

@@ -10,26 +10,26 @@ const works =[
     title : 'web development',
     description : 
     "i have a superset skill and command on the programming languages like HTML, CSS, JAVASCRIPT,Typescript,Nextjs, REACT. i have a good experience and also achieved many certificates in web development.  i have been working on some projects like e-commerce and web development.",
-    href: ""
+    href: "works/web-development",
   },
   {
     num: '02',
-    title : 'Logo design',
+    title : 'Python-Ai Developer',
     description:
-    "A certified logo designer who has an amazing creative ideas in mind and has been working on some projects. i have a good experience and expertly handled the logo design for various brands.",
-   href: ""
+    "A certified python developer and Ai developer with a superset skill in the programming languages like python,pandas,numpy and streamlit. i have been working on some projects like web development, data science, machine learning, and Ai.",
+   href: "works/python-ai-developer",
   },
   {
     num: '03',
     title : 'Graphic design',
     description:"Superset skill and trained certified graphic designer who has many creative ideas in mind related to posture,flyers, brochures, etc.and has been working on some projects.I know how to expertly handled with the adobe illustrator and photoshop.",
-   href: ""
+   href: "works/grapic-designer",
   },
   {
     num: '04',
     title : 'Film Editing and Animation',
     description:"Amazing creativity and command on the film editing and animation.i know how to deal with 3d movies animations ,great command on the editing of any 3d animation , film or video music script.a superset skill on the adobe premiere pro, after effect, and more.",
-   href: ""
+   href: "works/video-editing",
   },
 
 ];
