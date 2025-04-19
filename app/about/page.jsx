@@ -8,7 +8,7 @@ import {
   FaNodeJs,
 
 } from "react-icons/fa";
-
+import { FaPython } from "react-icons/fa6";
 import { SiTailwindcss, SiNextdotjs, SiAdobephotoshop, SiAdobepremierepro, SiAdobeillustrator, SiAdobeaftereffects} from "react-icons/si";
 
 import Link from "next/link";
@@ -137,6 +137,10 @@ const skills = {
       {
       icon : <SiAdobeaftereffects />,
       name : "After Effects",
+      },
+      {
+        icon : <FaPython />,
+        name : "Python",
       }
   ],
 };
